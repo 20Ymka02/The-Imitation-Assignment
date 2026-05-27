@@ -6,7 +6,7 @@ body {
     justify-content: center;
 }
 
-/* Робимо сітку для 6 проєктів (як на скріншоті завдання) */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,16 +24,13 @@ body {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* --- ТЕПЕР СТИЛІ ДЛЯ КОЖНОЇ КАРТИНКИ --- */
-
-/* 1. Пінгвіни: робимо овал */
 .img-penguins {
     width: 100%;
     max-width: 300px;
     border-radius: 50%;
 }
 
-/* 2. Поле: створюємо рамку з хрестиків-нуликів та робимо поле чорно-білим */
+
 .football-frame {
     background-image: url('tic-tac-toe.png');
     background-size: 35px 35px;
@@ -46,14 +43,14 @@ body {
     filter: grayscale(100%) contrast(120%);
 }
 
-/* 3. Динозавр: змінюємо колір із зеленого на синій + додаємо тінь */
+
 .img-dino {
     width: 100%;
     max-width: 250px;
     filter: hue-rotate(130deg) drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
 }
 
-/* 4. Чайка: додаємо синьо-фіолетовий градієнт на фоні */
+
 .seagull-frame {
     background: linear-gradient(to top, #9fa8da, #e8eaf6);
     padding: 10px;
@@ -65,7 +62,7 @@ body {
     max-width: 300px;
 }
 
-/* 5. Метелик: вивертаємо кольори (інверсія) та зрізаємо два кути */
+
 .img-butterfly {
     width: 100%;
     max-width: 320px;
@@ -73,7 +70,6 @@ body {
     border-radius: 40px 0 40px 0;
 }
 
-/* 6. Сцена: затемнюємо картинку та ставимо білий текст по центру */
 .stage-frame {
     position: relative;
     display: inline-block;
