@@ -1,5 +1,5 @@
 body {
-    background-color: #d1d5db;
+    background-color: #cbd5e1;
     margin: 0;
     padding: 40px;
     display: flex;
@@ -10,56 +10,56 @@ body {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 25px;
     max-width: 1200px;
 }
+
 
 .project-box {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    position: relative;
 }
 
 .img-penguins {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
     border-radius: 50%;
+    filter: sepia(35%) contrast(110%); 
 }
 
 
-.football-frame {
-    background-image: url('tic-tac-toe.png');
-    background-size: 35px 35px;
-    padding: 25px;
-}
-.img-football {
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    filter: grayscale(100%) contrast(120%);
+.football-green-container {
+    width: 320px;
+    height: 215px;
+    background-image: url('football_field.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #2e7d32;
+    background-blend-mode: overlay; 
 }
 
 
 .img-dino {
     width: 100%;
-    max-width: 250px;
-    filter: hue-rotate(130deg) drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
+    max-width: 240px;
+    filter: hue-rotate(155deg) saturate(140%) drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.4));
 }
 
 
 .seagull-frame {
     background: linear-gradient(to top, #9fa8da, #e8eaf6);
-    padding: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    padding: 5px;
 }
 .img-seagull {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
 }
 
 
@@ -70,15 +70,16 @@ body {
     border-radius: 40px 0 40px 0;
 }
 
+
 .stage-frame {
     position: relative;
-    display: inline-block;
+    width: 100%;
+    max-width: 320px;
 }
 .img-stage {
     display: block;
     width: 100%;
-    max-width: 300px;
-    filter: brightness(45%) contrast(110%);
+    filter: brightness(40%) contrast(120%);
 }
 .stage-text {
     position: absolute;
@@ -87,6 +88,6 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Arial', sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     letter-spacing: 1px;
 }
