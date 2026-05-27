@@ -46,9 +46,9 @@ body {
 
 
 .img-dino {
-  width: 100%;
-  max-width: 250px;
-  filter: hue-rotate(110deg)  drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
+    width: 100%;
+    max-width: 250px;
+    filter: hue-rotate(130deg) drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.5));
 }
 
 
