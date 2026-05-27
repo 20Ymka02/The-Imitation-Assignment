@@ -30,7 +30,7 @@ body {
     width: 100%;
     max-width: 320px;
     border-radius: 50%;
-    filter: sepia(35%) contrast(110%); 
+    filter: sepia(30%) contrast(105%); 
 }
 
 
@@ -46,9 +46,9 @@ body {
 
 
 .img-dino {
-    width: 100%;
-    max-width: 240px;
-    filter: hue-rotate(155deg) saturate(140%) drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.4));
+  width: 100%;
+  max-width: 240px;
+  filter: hue-rotate(240deg) saturate(150%) drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.4));
 }
 
 
